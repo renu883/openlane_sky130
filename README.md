@@ -1,2 +1,2 @@
 # openlane_sky130
-repository for openlane workshop
+# repository for openlane workshop
