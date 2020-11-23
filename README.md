@@ -68,6 +68,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 [Methodology:]
 
   1. Check installations of the open source EDA tools
+  
      a. Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal.
      b. Now type the command "yosys".
      c. The terminal will change to "yosys>".
@@ -76,6 +77,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
      f. Similarly run the gui for qflow.
      
   2. Clone git repository for lab work
+  
      a. Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal.
      b. Type the following command in the current working directory:
         git clone https://github.com/kunalg123/vsdflow.git
@@ -87,6 +89,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ls -ltr outdir_spi_slave | wc
         ![I2](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY1%20D1SK4%20MCQ6.JPG)
   3. Find area of Layout
+  
      a. Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal.
      b. Type the below commands in the terminal:
         cd outdir_spi_slave
@@ -95,6 +98,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
      d. On "tkcon" window, type "box". This will display the area of the layout.
         ![I3](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY1%20D1SK4%20MCQ7.JPG)
  4. Run synthesis using qflow
+ 
     a. Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal.
     b. Create a directory called my_picorv32 under vsdflow directory.
        cd vsdflow
@@ -129,6 +133,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 [Methodology:]
 
   1. Find area of the placed chip
+  
      a. Run the placement stage by setting the necessary options and performing the pin groupings.
      b. Post completion of the placement stage, change to my_picorv32 folder and type the below command:
         qflow display picorv32 &
@@ -165,11 +170,13 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 [Methodology:]
 
   1. Clone git repository for lab work
+  
      a. Go to labs and open terminal and type the below command
         git clone https://github.com/kunalg123/ngspice_labs.git
      b. This will create a new folder called "ngspice_labs" in the current location.
   
   2. Obtain the widths of the CMOS transistors
+  
      a. Open the terminal and change directory to "ngspice_labs".
      b. Display the inv.tran file.
         cat inv.spice
@@ -178,6 +185,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ![I6](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY3%20D3SK1%20MCQ5.JPG)
   
   3. Obtain DC Transfer characteristics for different transistor widths and find switching threshold
+  
      a. Go to labs and open terminal. Change directory to "ngspice_labs" and run the below commands:
         ngspice inv.spice
      b. In the newly opened terminal, as a result of the above command, run the below commands:
@@ -191,6 +199,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
      f. You will observe the shift in the switching threshold (X0) values.
   
   4. Obtain Transient analysis and calculate the rise time
+  
      a. Go to labs, open terminal. Change directory to "ngspice_labs".
      b. Open file called "inv_tran.spice" using below command. Edit the PMOS width to 0.75u. Then save and close:
         leafpad inv_tran.spice
@@ -204,6 +213,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ![I8](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY3%20D3SK1%20MCQ11.JPG)
    
   5. Obtain pulsewidth from transient analysis
+  
      a. Go to labs, open terminal. Change directory to "ngspice_labs".
      b. Run the below command:
         ngspice fn_prelayout.spice
@@ -217,6 +227,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ![I9](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY3%20D3SK2%20MCQ3.JPG)
   
   6. Analysis of Layout and obtain area of design
+  
      a. Go to labs, open terminal. Change directory to "ngspice_labs".
      b. Run the below command:
         magic -T min2.tech
@@ -231,6 +242,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ![I11](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY3%20D3SK3%20MCQ4.JPG)
   
   7. Obtain intersection of rising and falling waveform
+  
      a. Go to labs, open terminal. Change directory to "ngspice_labs", type the below command:
         magic -T min2.tech fn_postlayout.mag &
      b. Follow the steps as mentioned in lecture of D3SK3 - Lesson 4.
@@ -260,11 +272,13 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 [Methodology:]
 
   1. Clone git repository for lab work
+  
      a. Go to labs and open terminal and type the below command
         git clone https://github.com/kunalg123/ngspice_labs.git
      b. This will create a new folder called "ngspice_labs" in the current location.
   
   2. Find load and rise delay for different load values, different slew parameters
+  
      a. Open the terminal and change directory to "ngspice_labs".
      b. Display the inv.tran file.
         cat inv.spice
@@ -280,6 +294,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ![I12](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY4%20D4SK2%20MCQ7.JPG)
   
   3. Read values of different delay tables
+  
      a. Open the terminal and change directory to "ngspice_labs".
      b. Open below file using "leafpad" or "less" or "vim":
         /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
@@ -289,6 +304,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ![I13](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY4%20D4SK2%20MCQ10.JPG)
   
   4. Create SDC and conf files and perform sta
+  
      a. Open the terminal and change directory to "my_picorv32".
      b. Create picorv32.sdc file in leafpad and type the following commands in it and then save and close the file:
         create_clock -name clk -period 2.5 -waveform {0 1.25} [get_ports clk]
@@ -303,6 +319,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
         ![I14](https://github.com/renu883/openlane_sky130/blob/main/Images/DAY4%20D4SK2%20MCQ11.JPG)
   
   5. Obtain different parameters from the reports.
+  
      a. In the sta terminal obtained from task 4, type below command:
         report_checks -digits 4
      b. Obtain the following values from this report:
@@ -334,6 +351,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 [Methodology:]
 
   1. Obtain Pre-layout and Post-layout frequencies
+  
      a. Open Day 5 labs. Open the terminal and type the following commands:
         cd vsdflow/my_picorv32
         qflow route picorv32
