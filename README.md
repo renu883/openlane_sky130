@@ -1,5 +1,6 @@
 # openlane_sky130
-# repository for openlane workshop
+
+repository for openlane workshop
 
 
 # Introduction
@@ -10,11 +11,16 @@ A workshop on basic Physical Design was conducted by VLSI System design in order
 3. To understand different decision making processes.
  
 The workshop was run over a period of 5 days with a day-wise coverage as given below:
-Day 1: To study various components of RISC-V microprocessor based SoC and review RISC-V picoSoC.
-Day 2: To understand importance of good vs bad floorplan and introduction to library cells using open-source tool.
-Day 3: To design and characterize ,one library cell using open-source Layout tool and spice simulator.
-Day 4: To do pre-layout static timing analysis and understand the importance of good clock tree.
-Day 5: To understand full-chip integration steps and implement E31 RISCV design using open-source tool-chain.
+
+  Day 1: To study various components of RISC-V microprocessor based SoC and review RISC-V picoSoC.
+  
+  Day 2: To understand importance of good vs bad floorplan and introduction to library cells using open-source tool.
+  
+  Day 3: To design and characterize ,one library cell using open-source Layout tool and spice simulator.
+  
+  Day 4: To do pre-layout static timing analysis and understand the importance of good clock tree.
+  
+  Day 5: To understand full-chip integration steps and implement E31 RISCV design using open-source tool-chain.
 
 The workshop was conducted under controlled environment with uniform access levels provided to each and every participant.
 
