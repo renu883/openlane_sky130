@@ -49,6 +49,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 # Comprehensive Technical Report
 # [DAY 1 CHALLENGE:]
 [Concepts Implemented:]
+
   Introduction to QFN-48 package, chips, pads, core, die, IP
   Introduction to RISC-V Architecture, picorv32 and picoSoC, RAVEN full chip and RAVEN SoC
   Introduction to open-source EDA Tools
@@ -112,6 +113,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 
 # [DAY 2 CHALLENGE:]
 [Concepts Implemented:]
+
   Utilization factor, Aspect Ratio, Pre-placed cells, De-Coupling Capacitors, Power Planning, Pin and Logical Cell Blockage Placements
   Library Binding and Placement
   Cell Design and Characterization Flows
@@ -138,6 +140,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 
 # [DAY 3 CHALLENGE:]
 [Concepts Implemented:]
+
   SPICE Deck creation and, static and dynamic simulation for inverter, switching threshold
   Stick Diagram, Euler's path, abstract layouts
   Fn dimension derivation, layouts, scripting
@@ -228,6 +231,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 
 # [DAY 4 CHALLENGE:]
 [Concepts Implemented:]
+
   Timing modelling using delay tables
   Timing analysis with ideal clocks - setup, jitter and uncertainity
   Clock Tree Synthesis and Signal Integrity - H-Tree Algorithm, Cross-talk and Net Shielding
@@ -303,6 +307,7 @@ Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 
 # [DAY 5 CHALLENGE:]
 [Concepts Implemented:]
+
   Routing and DRCs - Lee's Maze Algorithm
   Introduction to SPEF - Different Representations of Parasitics
   PnR Tutorials
