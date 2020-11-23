@@ -42,6 +42,7 @@ The objective of this course was to familiarize the participants with the differ
 # Timelines
 
 The timeline of the workshop is as follows:
+
 Categories	  |    Initiation Date/Time	 | Completion Date/Time
 ----------------------------------------------------------------
 Day 01 Challenge 	| 17th November 2020	 |   18th November 2020
