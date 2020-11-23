@@ -373,10 +373,15 @@ We were able to verify the correctness of the installations. We were also able t
 Software  | Description
 ------------------------
 yosys | Yosys is a framework for Verilog RTL synthesis. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the Yosys C++ code base.
+
 qflow | Qflow is a complete tool chain for synthesizing digital circuits starting from verilog source and ending in physical layout for a specific target fabrication process.
+
 sta | Open source tool for static timing analysis
+
 NGSPICE | ngspice is the open source spice simulator for electric and electronic circuits.
+
 Magic | Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl.
+
 leafpad | Leafpad is an open source text editor for Linux, BSD, and Maemo. Created with the focus of being a lightweight text editor with minimal dependencies, it is designed to be simple and easy-to-compile.
 
   
