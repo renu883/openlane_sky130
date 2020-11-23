@@ -39,9 +39,13 @@ The timeline of the workshop is as follows:
 Categories	  |    Initiation Date/Time	 | Completion Date/Time
 ----------------------------------------------------------------
 Day 01 Challenge 	| 17th November 2020	 |   18th November 2020
+
 Day 02 Challenge  |	18th November 2020	 |   19th November 2020
+
 Day 03 Challenge	| 19th November 2020	 |   20th November 2020
+
 Day 04 Challenge	| 20th November 2020	 |   21st November 2020
+
 Day 05 Challenge	| 21st November 2020	 |   22nd November 2020
 
 
